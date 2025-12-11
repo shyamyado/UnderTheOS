@@ -1,0 +1,95 @@
+# -----------------------------
+# Build artifacts (C/C++/ASM)
+# -----------------------------
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+*.elf
+*.bin
+
+# xv6 and OS kernels
+kernel
+kernel.sym
+*.d
+*.map
+
+# -----------------------------
+# Build directories
+# -----------------------------
+build/
+*/build/
+out/
+dist/
+
+# Cargo/Ninja/Other build systems
+target/
+.ninja_deps
+.ninja_log
+
+# -----------------------------
+# Temporary or OS files
+# -----------------------------
+*~
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs and core dumps
+# -----------------------------
+*.log
+core
+core.*
+
+# -----------------------------
+# VS Code & Editor settings
+# -----------------------------
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# -----------------------------
+# Python helper scripts
+# -----------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------
+# GDB / LLDB
+# -----------------------------
+.gdb_history
+.gdbinit
+.lldbinit
+
+# -----------------------------
+# QEMU / Virtualization outputs
+# -----------------------------
+*.img
+*.iso
+*.qcow2
+*.vdi
+*.vmdk
+
+# QEMU console logs
+qemu.pid
+qemu-system-*
+serial.log
+
+# -----------------------------
+# Generated documentation
+# -----------------------------
+docs/_build/
+*.html
+
+# -----------------------------
+# Misc
+# -----------------------------
+tags
+ctags
+etags
